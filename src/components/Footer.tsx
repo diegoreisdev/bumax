@@ -43,8 +43,8 @@ const Footer = () => {
             <h4 className="text-sm font-bold text-white mb-4">Contato</h4>
             <ul className="space-y-2 text-sm text-white/70">
               <li>contato@bumax.com.br</li>
-              <li>(00) 0000-0000</li>
-              <li>São Paulo — SP</li>
+              <li>(75) 0000-0000</li>
+              <li>Paulo Afonso — BA</li>
             </ul>
             <div className="flex items-center gap-3 mt-5">
               <a href="#" aria-label="Instagram" className="p-2 border border-white/15 hover:border-gold hover:text-gold transition-colors text-white/80">
