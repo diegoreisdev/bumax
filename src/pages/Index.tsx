@@ -8,6 +8,7 @@ import TestimonialCard from "@/components/TestimonialCard";
 import CTABlock from "@/components/CTABlock";
 import LeadForm from "@/components/LeadForm";
 import { SERVICES, SEGMENTS } from "@/data/services";
+import { useEffect } from "react";
 
 const PILLARS = [
   {
@@ -49,6 +50,10 @@ const TESTIMONIALS = [
 ];
 
 const Index = () => {
+  useEffect(() => {
+    document.title = "Home — Bumax Contabilidade";
+  }, []);
+
   return (
     <Layout>
       <HeroSection />
